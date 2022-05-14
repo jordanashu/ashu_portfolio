@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin:-0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+}
+
+.f-content{
+    position: absolute;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content:center ;
+width: 100%;
+
+margin-top: 14rem;
+gap:2rem;
+color:white;
+
+}
+
+.f-icons{
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (max-width:480px){
+    .footer{
+
+      
+    
+        width: auto;
+        
+    }
+
+    .f-content{
+        transform: scale(.8);
+    }
+
+
+     .f-icons>*{
+       
+  
+    flex-direction: row;
+    margin-bottom: 10rem;
+    
+    
+    }
+
+    
+}
